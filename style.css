@@ -1,0 +1,129 @@
+
+
+
+body{
+    
+    padding: 10px;
+    margin: 2px;
+    background-color: bisque;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+a:hover{
+
+    background-color: white;
+    border: 15px;
+    border-radius: 5px;
+}
+
+section{
+
+    text-align: center;
+    margin-bottom: 80px;
+  
+}
+
+.search{
+     
+    margin:230px;
+    padding: 100px;
+}
+
+.search p{
+    margin-right: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.search input{
+
+    border: 5px;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    
+}
+
+.search img{
+
+    margin: -350px;
+     float:right;
+     margin-right: 10px;
+    
+    
+}
+
+.books{
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+
+
+button{
+    cursor: pointer;
+    border: 10px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button:hover{
+
+    background-color: rgb(60, 118, 118);
+}
+
+footer{
+
+    background-color: rgb(45, 41, 41);
+   height: 200px;
+   padding-bottom: 80px;
+   border-radius: 3px;
+}
+footer h3{
+
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.foot{
+
+    justify-content: space-between;
+    margin-bottom: 1000px;
+}
+.try{
+
+    padding: 15px;
+   
+}
+.try :hover{
+
+    border-radius: 10px;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+
+.copy{
+
+    color: white;
+}
